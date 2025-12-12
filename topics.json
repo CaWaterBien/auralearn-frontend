@@ -1,0 +1,135 @@
+[
+    {
+        "chapter_number": 1,
+        "chapter_title": "Introduction to the Internet and World Wide Web",
+        "lessons": [
+            {
+                "lesson_number": "1.1",
+                "lesson_title": "The Internet and the Web",
+                "topics": [
+                    "Understanding the concept of the Internet as a global network of interconnected computers",
+                    "Exploring the origin of the Internet (ARPANET and its initial purpose)",
+                    "Discussing the growth and commercialization of the Internet in the 1990s",
+                    "Describing the birth of the World Wide Web and Tim Berners-Lee’s contribution",
+                    "Recognizing the impact of the first graphical web browser (Mosaic) on web accessibility",
+                    "Identifying organizations that coordinate Internet standards (IETF, IAB) and governance",
+                    "Differentiating private networks: intranets (internal networks) vs. extranets (secure external networks)"
+                ],
+                "codeExamples": [],
+                "activities": []
+            },
+            {
+                "lesson_number": "1.2",
+                "lesson_title": "Web Standards and Accessibility",
+                "topics": [
+                    "Understanding the role of the World Wide Web Consortium (W3C) in developing and recommending web standards",
+                    "Explaining what W3C Recommendations are and their influence on browser development and web design",
+                    "Introducing the Web Accessibility Initiative (WAI) and the Web Content Accessibility Guidelines (WCAG)",
+                    "Recognizing legal mandates for web accessibility (e.g., ADA and Section 508 requirements in the U.S.)",
+                    "Defining the principle of universal design and its importance in inclusive web development",
+                    "Identifying how accessible design practices improve usability for all users (including those on mobile devices)"
+                ],
+                "codeExamples": [],
+                "activities": []
+            },
+            {
+                "lesson_number": "1.3",
+                "lesson_title": "Information on the Web",
+                "topics": [
+                    "Evaluating the credibility of online information (considering the source’s domain, authority, and purpose)",
+                    "Assessing the timeliness of web content and the importance of up-to-date information on websites",
+                    "Looking for references or external links on web pages as indicators of reliable, well-supported information",
+                    "Using Wikipedia wisely as a starting point for research while verifying facts through cited references",
+                    "Understanding ethical use of online content (avoiding plagiarism and unauthorized use of text, images, or designs)",
+                    "Recognizing intellectual property rights on the Web and the purpose of Creative Commons licenses for sharing content"
+                ],
+                "codeExamples": [],
+                "activities": []
+            },
+            {
+                "lesson_number": "1.4",
+                "lesson_title": "Network Overview",
+                "topics": [
+                    "Defining a computer network and its purpose in enabling communication and resource sharing",
+                    "Identifying common network components (server computers, client workstations, networking devices, and media)",
+                    "Distinguishing between Local Area Networks (LANs) and Wide Area Networks (WANs) by scale and scope",
+                    "Understanding the concept of a network backbone as a high-capacity link that interconnects multiple networks",
+                    "Recognizing the Internet as a global network of networks, interconnected via high-speed backbone links"
+                ],
+                "codeExamples": [],
+                "activities": []
+            },
+            {
+                "lesson_number": "1.5",
+                "lesson_title": "The Client/Server Model",
+                "topics": [
+                    "Explaining the client–server model as a relationship where a client requests services and a server fulfills those requests",
+                    "Describing how clients and servers can be separate programs (often on different machines) communicating over a network",
+                    "Illustrating a web scenario where a browser (client) requests a page and a web server responds with the requested resources",
+                    "Comparing typical characteristics of web clients vs. web servers (e.g., intermittent use vs. continuous uptime)",
+                    "Introducing Multipurpose Internet Mail Extensions (MIME) and their role in indicating the type of content being exchanged on the Web"
+                ],
+                "codeExamples": [],
+                "activities": []
+            },
+            {
+                "lesson_number": "1.6",
+                "lesson_title": "Internet Protocols",
+                "topics": [
+                    "Understanding that multiple communication protocols work together to enable Internet and Web functionality",
+                    "Explaining File Transfer Protocol (FTP) and how it is used to exchange files between computers over the Internet",
+                    "Identifying common e-mail protocols (SMTP for sending email; POP3/IMAP for retrieving email) and their roles",
+                    "Describing how Hypertext Transfer Protocol (HTTP) is used by web browsers and servers to exchange web pages and resources",
+                    "Recognizing the importance of HTTPS for secure web communication by encrypting data between client and server",
+                    "Understanding the role of the Transmission Control Protocol/Internet Protocol (TCP/IP) suite as the foundation of Internet data transfer",
+                    "Discussing the limitations of IPv4 addressing and the introduction of IPv6 to provide a vastly larger address space"
+                ],
+                "codeExamples": [],
+                "activities": []
+            },
+            {
+                "lesson_number": "1.7",
+                "lesson_title": "Uniform Resource Identifiers and Domain Names",
+                "topics": [
+                    "Defining a Uniform Resource Identifier (URI) as a unique address or identifier for a resource on the Internet",
+                    "Differentiating a Uniform Resource Locator (URL) as a specific type of URI that provides the location of a web resource",
+                    "Explaining the purpose of domain names as human-readable addresses that map to numerical IP addresses for websites",
+                    "Introducing the Domain Name System (DNS) as the mechanism that translates domain names into their corresponding IP addresses",
+                    "Recognizing common top-level domains (TLDs) such as .com, .org, .edu, and their general intended uses"
+                ],
+                "codeExamples": [],
+                "activities": []
+            },
+            {
+                "lesson_number": "1.8",
+                "lesson_title": "Markup Languages",
+                "topics": [
+                    "Understanding Standard Generalized Markup Language (SGML) as a system for defining structured document formats",
+                    "Describing Hypertext Markup Language (HTML) as the standard language used to structure and present content on the Web",
+                    "Explaining Extensible Markup Language (XML) as a flexible framework for defining custom data markup tags",
+                    "Discussing Extensible Hypertext Markup Language (XHTML) as a stricter, XML-based reformulation of HTML for the Web",
+                    "Highlighting HTML5 as the modern version of HTML that introduced new semantic elements and improved features"
+                ],
+                "codeExamples": [],
+                "activities": []
+            },
+            {
+                "lesson_number": "1.9",
+                "lesson_title": "Popular Uses of the Web",
+                "topics": [
+                    "Exploring e-commerce as the buying and selling of goods and services online, and noting its ongoing growth in usage",
+                    "Understanding mobile access to the Web and the rise of smartphones/tablets as common Internet devices",
+                    "Recognizing blogs as frequently updated online journals and their value in communication and marketing",
+                    "Identifying wikis as collaborative websites (e.g., Wikipedia) that users can edit to share knowledge collectively",
+                    "Examining social networking platforms (Facebook, Twitter, LinkedIn, etc.) and their widespread adoption for connecting people",
+                    "Discussing cloud computing as the use of Internet-hosted services (storage, applications) and its definition by NIST as on-demand remote computing",
+                    "Explaining Really Simple Syndication (RSS) as a format for delivering updated content (newsfeeds) from websites to subscribers",
+                    "Describing podcasts as audio programs (like blogs in audio form or radio shows) available on the Web, often delivered via RSS feeds",
+                    "Emphasizing the constant evolution of web technologies and the importance of continual learning to keep up with web trends"
+                ],
+                "codeExamples": [],
+                "activities": []
+            }
+        ]
+    }
+]

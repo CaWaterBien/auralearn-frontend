@@ -1,0 +1,369 @@
+{
+    "topics": [
+      {
+        "id": 1,
+        "title": "Chapter 1: Introduction to the Internet and World Wide Web",
+        "description": "This brief introduction covers terms and concepts related to the Internet and the Web. Chapter 1 provides the base of knowledge on which the rest of the textbook is built."
+      },
+      {
+        "id": 2,
+        "title": "Chapter 2: HTML Basics",
+        "description": "As HTML5 is introduced, examples and exercises encourage students to create sample pages and gain experience. Students use a variety of structural, grouping, and text-level elements to create web pages with hyperlinks."
+      },
+      {
+        "id": 3,
+        "title": "Chapter 3: Configuring Color and Text with CSS",
+        "description": "This chapter introduces using CSS to configure color and text on web pages."
+      },
+      {
+        "id": 4,
+        "title": "Chapter 4: Visual Elements and Graphics",
+        "description": "This chapter discusses the use of graphics and visual effects on web pages, including image optimization, CSS borders and backgrounds, and HTML5 visual elements."
+      },
+      {
+        "id": 5,
+        "title": "Chapter 5: Web Design",
+        "description": "This chapter focuses on recommended web design practices and accessibility."
+      },
+      {
+        "id": 6,
+        "title": "Chapter 6: Page Layout",
+        "description": "This chapter continues CSS study and introduces positioning and floating elements, including CSS two-column layouts, CSS sprites, print styles, a fixed navigation bar, a single page site, and parallax scrolling."
+      },
+      {
+        "id": 7,
+        "title": "Chapter 7: Responsive Page Layout",
+        "description": "This chapter provides in-depth coverage of CSS Flexbox and Grid Layout, and continues coverage of CSS media queries, responsive images, and feature queries."
+      },
+      {
+        "id": 8,
+        "title": "Chapter 8: Tables",
+        "description": "This chapter focuses on the HTML elements used to create tables and introduces methods of styling tables with CSS."
+      },
+      {
+        "id": 9,
+        "title": "Chapter 9: Forms",
+        "description": "This chapter focuses on the HTML elements used to create forms and introduces methods for styling forms with CSS, including CSS Grid Layout. HTML5 form controls are introduced."
+      },
+      {
+        "id": 10,
+        "title": "Chapter 10: Web Development",
+        "description": "This chapter focuses on the website development process, including project roles, the development process steps, and web hosting. File organization is also addressed, and a web host checklist is included."
+      },
+      {
+        "id": 11,
+        "title": "Chapter 11: Web Multimedia and Interactivity",
+        "description": "This chapter provides an overview of adding media and interactivity to web pages, including HTML5 video and audio, CSS animations, an interactive menu and image gallery, JavaScript, jQuery, Ajax, and HTML5 APIs."
+      },
+      {
+        "id": 12,
+        "title": "Chapter 12: E-Commerce Overview",
+        "description": "This chapter introduces e-commerce, including security and order processing on the Web."
+      },
+      {
+        "id": 13,
+        "title": "Chapter 13: Web Promotion",
+        "description": "This chapter discusses website promotion and introduces search engine optimization (SEO)."
+      },
+      {
+        "id": 14,
+        "title": "Chapter 14: A Brief Look at JavaScript and jQuery",
+        "description": "This chapter introduces client-side scripting with JavaScript and jQuery."
+      }
+    ],
+    "lessons": [
+      {
+        "id": 1,
+        "topic_id": 1,
+        "title": "1.1 The Internet and the Web",
+        "content": "The Internet is an interconnected network of computer networks that spans the globe and has become part of everyday life. It began as a small network (ARPAnet) connecting research computers, designed to reroute data if parts were damaged. Over time, other networks joined, and by 1991 the Internet opened to commercial use. The World Wide Web was invented by Tim Berners-Lee in 1991 as a way for researchers to hyperlink documents. Early web pages were text-based and used HTML for formatting and HTTP for communication. In 1993, Mosaic became the first graphical web browser, paving the way for the Web's rapid growth. By the early 1990s, user-friendly operating systems, affordable Internet connections (through services like AOL and CompuServe), and the introduction of HTML, HTTP, and graphical browsers converged to make the Web accessible to the public. As usage grew, no single entity was in charge of the Internet; instead, groups like the Internet Engineering Task Force (IETF) and Internet Architecture Board (IAB) oversee technical standards. The Internet Corporation for Assigned Names and Numbers (ICANN) coordinates domain names and IP addresses, with help from the Internet Assigned Numbers Authority (IANA). Organizations can use private networks: an intranet (for internal use) or an extranet (to share information with partners securely)."
+      },
+      {
+        "id": 2,
+        "topic_id": 1,
+        "title": "1.2 Web Standards and Accessibility",
+        "content": "No single person or group governs the World Wide Web, but the World Wide Web Consortium (W3C) plays a key role by developing recommendations for web standards, including web architecture, design standards, and accessibility. W3C Recommendations are guidelines (not rules) created with industry input, and while browsers sometimes diverge, there is a trend toward compliance. Following W3C standards helps ensure websites are accessible. The W3C’s Web Accessibility Initiative (WAI) develops guidelines to help those with disabilities access the Web (see the Web Content Accessibility Guidelines, WCAG). For example, WCAG 2.1 extends earlier guidelines to better support mobile and low-vision accessibility. In the United States, laws like the Americans with Disabilities Act (ADA) prohibit disability-based web access discrimination, and Section 508 requires federal websites to be accessible (recently updated to align with WCAG 2.0). Universal design is the practice of making products and environments usable by as many people as possible. For web developers, designing with universal design principles and accessibility in mind not only helps users with visual, auditory, physical, or neurological challenges, but often improves the user experience for all users (for example, providing text alternatives for images not only aids screen readers but also helps mobile users or search engines)."
+      },
+      {
+        "id": 3,
+        "topic_id": 1,
+        "title": "1.3 Information on the Web",
+        "content": "With anyone able to publish on the Web, it’s critical to evaluate the reliability of online information. When researching online, ask: **Is the organization credible?** (Check if a site has its own domain name and consider the type of domain; .edu or .gov sites can be more objective than .com businesses or random free-hosted sites.) **How recent is the information?** (Check for last updated dates; outdated pages may not be reliable.) **Are there links to additional resources?** (Good information is often supported by references and external links.) **Is it Wikipedia?** (Wikipedia is a useful starting point, but since anyone can edit it, you should verify facts through the references listed and other sources.)\\n**Ethical Use of Information:** Consider the ethics of using material from the Web. Is it okay to use someone else’s graphic or website design on your own site? Copy someone’s writing or insult someone online? The answer is **no** to all. Using someone’s content without permission is stealing (and possibly consuming their bandwidth if hot-linked). Always ask permission, give credit, or use resources licensed for sharing (such as those under Creative Commons). Content on websites is automatically copyrighted, even if not explicitly labeled. Defaming someone online can have legal consequences. Good web practice involves requesting permission for others’ work, citing sources, and exercising free speech responsibly. Creative Commons licenses allow creators to permit certain uses of their work under specified conditions. These licenses help others know how they can use or adapt content you created.\\n*Checkpoint 1.1:*\\n1. Describe the difference between the Internet and the Web.\\n2. Explain three events that contributed to the commercialization and growth of the Internet.\\n3. Is the concept of universal design important to web developers? Explain."
+      },
+      {
+        "id": 4,
+        "topic_id": 1,
+        "title": "1.4 Network Overview",
+        "content": "A network consists of two or more computers connected for the purpose of communicating and sharing resources. Common components of a network include servers (computer(s) that provide resources), client workstation computers, shared devices such as printers, and networking devices (routers, hubs, switches) and the media that connect them. A **local area network (LAN)** is usually confined to a single building or group of connected buildings. (Your school’s computer lab is likely a LAN.) A **wide area network (WAN)** is geographically dispersed and usually uses some form of public or commercial communications network. For example, an organization with offices on both the East and West coasts of the United States probably uses a WAN to provide a link between the LANs at each of the offices."
+      },
+      {
+        "id": 5,
+        "topic_id": 1,
+        "title": "1.5 The Client/Server Model",
+        "content": "The term **client/server** dates from the 1980s and refers to personal computers joined by a network. “Client/server” can also describe a relationship between two computer programs – the client and the server. The client requests some type of service (such as a file or database access) from the server. The server fulfills the request and transmits the results to the client over a network. While both the client and the server programs can reside on the same computer, typically they run on different computers (Figure 1.5). It is common for a server to handle requests from multiple clients.\\n\\n**Web Client** – Connected to the Internet when needed; usually runs web browser software (e.g., Chrome or Edge); uses HTTP or HTTPS; requests web pages from a server; receives web pages and files from a server.\\n**Web Server** – Continually connected to the Internet; runs web server software (e.g., Apache or IIS); uses HTTP or HTTPS; receives requests for web pages; responds to requests and transmits the status code, web page, and associated files.\\n\\nWhen clients and servers exchange files, they often need to indicate the type of file being transferred; this is done using **MIME types** (Multipurpose Internet Mail Extensions). MIME allows multimedia documents to be exchanged among different systems. It defines types for files like audio, video, image, application, etc., and also subtypes for more detail. For example, a web page has MIME type text/html, a GIF image is image/gif, JPEG is image/jpeg. When a web server sends a file, it includes the MIME type so the browser knows how to handle the file."
+      },
+      {
+        "id": 6,
+        "topic_id": 1,
+        "title": "1.6 Internet Protocols",
+        "content": "Protocols are rules that describe how clients and servers communicate over a network. There is no single protocol that makes the Internet and Web work; many protocols with specific functions are needed in combination.\\n\\n**File Transfer Protocol (FTP)** – A set of rules allowing files to be exchanged between computers on the Internet. Unlike HTTP (which is used for web page requests), FTP is used simply to move files from one computer to another. Web developers use FTP to transfer web files from their computers to web servers, and it’s also used for downloading files from servers to individual computers.\\n**E-mail Protocols** – Sending and receiving email uses separate protocols. **Simple Mail Transfer Protocol (SMTP)** is used to send email. When receiving email, **Post Office Protocol (POP3)** or **Internet Message Access Protocol (IMAP)** can be used.\\n**Hypertext Transfer Protocol (HTTP)** – A set of rules for exchanging files (text, images, multimedia, etc.) on the Web. Browsers and web servers use HTTP. When a user enters a URL or clicks a link, the browser sends an HTTP request to the server. The web server receives the request, processes it, and responds with the requested file(s).\\n**Hypertext Transfer Protocol Secure (HTTPS)** – HTTPS combines HTTP with a security protocol (such as SSL/TLS) to encrypt data between the browser and the web server. (See Chapter 12 for more about HTTPS.)\\n**Transmission Control Protocol/Internet Protocol (TCP/IP)** – The official communication protocol of the Internet. **TCP** ensures the integrity of communication. It breaks files/messages into packets (see Figure 1.6) containing destination, source, sequence, and checksum info. TCP verifies that packets arrive intact (using the checksum), requests resend of any damaged packets, and reassembles the message from packets. **IP** works with TCP to route each packet to the correct destination address. Each Internet-connected device has a unique numeric **IP address**. The original IP version (IPv4) uses 32-bit addresses (e.g., 216.58.194.46), allowing about 4 billion addresses (though many are reserved or unusable). With the explosion of devices, **IPv6** was introduced, using 128-bit addresses (providing 2^128 possible addresses – enough for virtually all devices we can imagine). IPv6 is backward-compatible and being gradually adopted.\\n**Domain Name System (DNS)** – DNS associates domain names with IP addresses. When you type a URL (like example.com), DNS servers translate the domain name to the corresponding IP address. For instance, at the time of writing, Google’s domain (google.com) corresponded to an IP like 216.58.194.46. You could enter that IP directly to reach Google, but domain names are easier to remember. The DNS ensures that behind the scenes, the text-based name you enter is converted to the numeric IP so the network can route your request to the right server.\\n\\n*FAQ – What is HTTP/2?* HTTP/2 is the first major update to HTTP (introduced in 1999). As websites include more images and media, the number of requests to load a page has increased. HTTP/2’s major benefit is faster page loads by allowing multiple concurrent requests over a single connection (multiplexing). It also compresses headers and can prioritize requests. (See the HTTP/2 documentation for more details.)"
+      },
+      {
+        "id": 7,
+        "topic_id": 1,
+        "title": "1.7 Uniform Resource Identifiers and Domain Names",
+        "content": "A **Uniform Resource Identifier (URI)** identifies a resource on the Internet. A **Uniform Resource Locator (URL)** is a common type of URI that gives the address of a resource (like a page, image, or file) and how to retrieve it (the protocol). For example, in the URL `http://www.webdevfoundations.net/chapter1/index.html`, *http* is the protocol, *www.webdevfoundations.net* is the domain name (and server), and *chapter1/index.html* is the path to a specific file on that server.\\n**Domain Names** – A domain name locates an organization or entity on the Internet. It associates with an IP address behind the scenes. For instance, *google.com* is the domain name for Google. In a URL like **http://maps.google.com**, “maps” is a subdomain (pointing to the Google Maps service), “google” is the second-level domain, and “.com” is the top-level domain (TLD). Together, maps.google.com is a fully qualified domain name (FQDN).\\n**Top-Level Domains (TLDs)** – The rightmost part of a domain name (after the final dot) is the TLD. There are generic TLDs (gTLDs) like .com (commercial), .org (organization), .edu (educational), .gov (government), etc., and country-code TLDs like .uk (United Kingdom), .ca (Canada), etc. ICANN administers the TLD system. In recent years, many new gTLDs have been introduced (e.g., .aero for the air-transport industry, .museum for museums, etc.), but .com, .org, .net remain the most common."
+      },
+      {
+        "id": 8,
+        "topic_id": 1,
+        "title": "1.8 Markup Languages",
+        "content": "**Markup languages** consist of sets of directions (tags) that tell browser software (and other user agents) how to display and manage content on a web page. Tim Berners-Lee used **Standard Generalized Markup Language (SGML)** to define HTML in the early 1990s. SGML is not a language itself, but a standard for specifying markup languages via document type definitions (DTDs).\\n**Hypertext Markup Language (HTML)** – HTML uses markup tags (e.g., <p>, <h1>, <img>) in a text file intended for display in a web browser. The browser interprets the tags to render the page’s content and layout. The W3C maintains the HTML standard.\\n**Extensible Markup Language (XML)** – XML, developed by the W3C, is a flexible way to create common data formats and share data. It’s a text-based syntax for marking up structured information (like a data file or feed). XML is not meant to replace HTML, but to complement it by separating content from presentation (e.g., RSS feeds are in XML). Developers can create custom tags in XML to describe their data.\\n**Extensible Hypertext Markup Language (XHTML)** – XHTML reformulated HTML4 as an XML application (with stricter rules). Many websites were coded in XHTML for a time. The W3C started an XHTML2.0 project, but it was discontinued in favor of HTML5, since XHTML2 wasn’t backward-compatible with existing HTML4.\\n**HTML5** – HTML5 is the successor to HTML4/XHTML, combining features of both and adding new elements and APIs (like form enhancements, native video/audio, canvas, etc.) while remaining backward-compatible. HTML5 became a W3C Recommendation in 2014, and newer versions (HTML5.1, HTML5.2) have added even more features. Modern browsers largely support HTML5 and its updates.\\n\\n*Checkpoint 1.2:*\\n1. Describe the components of the client/server model as applied to the Internet.\\n2. Identify two protocols used on the Internet that do not use the Web.\\n3. Explain the similarities and differences between a URL and a domain name."
+      },
+      {
+        "id": 9,
+        "topic_id": 1,
+        "title": "1.9 Popular Uses of the Web",
+        "content": "The Web today is used for a variety of purposes, including:\\n- **E-Commerce:** Buying and selling goods/services online (online shopping). E-commerce has grown exponentially; studies show about 80% of American adults have made an online purchase. Sales in U.S. e-commerce are in the hundreds of billions annually. Importantly, e-commerce now happens across devices – not just on PCs but also on tablets, smartphones, or via voice assistants.\\n- **Mobile Access:** Accessing the Web via smartphones and tablets is extremely common. In fact, a significant percentage of people rely primarily on mobile devices for Internet access (some do not have desktop broadband at all). Web designers must use responsive design techniques so sites display and function well on small screens and touch interfaces as well as on larger monitors.\\n- **Blogs:** A blog is an online journal (web log) with posts (articles) displayed in chronological order. Blogs can be about any topic, from technology to personal diaries. They are easy to update using blog platforms (no advanced technical skill needed). Many companies also run blogs to connect with customers and provide updates.\\n- **Wikis:** A wiki is a collaborative website that can be directly edited by authorized users (or in the case of Wikipedia, by virtually anyone). Wikis allow many contributors to add or refine content collectively. Wikipedia, for example, is a massive encyclopedia written and edited by volunteers worldwide. While information on wikis should be double-checked for accuracy (due to open editing), they are a powerful way to gather and share community knowledge.\\n- **Social Networking:** Social media sites (Facebook, Twitter, Instagram, LinkedIn, etc.) have become integral to personal and professional communication. As of 2019, about 70% of U.S. adults use at least one social media platform. These sites allow people to share updates, photos, and links, and enable businesses to engage with customers. Facebook has over 2 billion monthly users globally. Twitter, a microblogging service (tweets are short messages up to 280 characters), is used by individuals and organizations to broadcast updates and interact. LinkedIn focuses on professional networking, while Instagram and Pinterest are popular for visual content and ideas. Social networking is a key aspect of modern web use.\\n- **Cloud Computing:** Many web services provide software and storage “in the cloud” (on remote servers). Examples include Google Drive or Microsoft OneDrive for documents and files, web-based email, and software-as-a-service (SaaS) applications. Instead of installing software or storing data on a local computer, users use a browser to access tools and data stored on the Internet. Cloud computing enables collaboration (multiple people working on a document online) and access to your data from any device. Its usage is expanding in both consumer and enterprise contexts.\\n- **RSS Feeds:** **Really Simple Syndication (RSS)** allows users to subscribe to updates from websites. Websites (like blogs or news sites) publish an RSS feed (XML format) listing their latest content headlines or summaries. Users run a **newsreader** (or feed reader) application or plugin which aggregates all their subscribed feeds and shows new posts in one place. This “pull” mechanism is a way for web developers to disseminate content to interested users without relying on them visiting the site directly every time.\\n- **Podcasts:** Podcasts are audio (or video) programs distributed via the web, often in an episodic series. They are usually delivered through an RSS feed as well, so users can subscribe and automatically get new episodes. A podcast might be like a radio show or lecture series that users can listen to on-demand on their phone or computer. Thousands of podcasts exist on every imaginable topic, and they contribute to the rich diversity of Web content.\\n\\n**Constant Change:** Web technologies and trends evolve rapidly. New standards, tools, and user behaviors emerge all the time. Staying current is part of a web developer’s life – for example, by reading articles, following blogs (like the textbook’s companion website blog for Web trends), and practicing new techniques. The web development field requires continuous learning, as “the next big thing” can rise to prominence quickly."
+      },
+      {
+        "id": 10,
+        "topic_id": 1,
+        "title": "Chapter 1 Summary & Key Terms",
+        "content": "This chapter provided a brief overview of Internet, Web, and networking concepts. Some information may have been familiar already. Visit the textbook’s website for links to all URLs in this chapter and updated information.\\nKey Terms: accessible website; Americans with Disabilities Act (ADA); backbone; blog; client/server; clients; cloud computing; country-code top-level domain (ccTLD); Creative Commons; domain name; Domain Name System (DNS); e-commerce; extranet; File Transfer Protocol (FTP); fully qualified domain name (FQDN); generic top-level domain (gTLD); HTML5; Hypertext Markup Language (HTML); Hypertext Transfer Protocol (HTTP); Hypertext Transfer Protocol Secure (HTTPS); Internet; Internet Architecture Board (IAB); Internet Assigned Numbers Authority (IANA); Internet Corporation for Assigned Names and Numbers (ICANN); Internet Engineering Task Force (IETF); Internet Message Access Protocol (IMAP); intranet; IP; IP address; IP Version 4 (IPv4); IP Version 6 (IPv6); local area network (LAN); markup languages; microblogging; Multipurpose Internet Mail Extensions (MIME); network; newsreader; packets; podcasts; Post Office Protocol (POP3); protocols; Really Simple Syndication or Rich Site Summary (RSS); Request for Comments (RFC); Section 508 of the Federal Rehabilitation Act; server; Simple Mail Transfer Protocol (SMTP); social networking; Standard Generalized Markup Language (SGML); subdomain; TCP; Tim Berners-Lee; top-level domain (TLD); Transmission Control Protocol/Internet Protocol (TCP/IP); tweet; Uniform Resource Identifier (URI); Uniform Resource Locator (URL); universal design; Web Accessibility Initiative (WAI); Web Content Accessibility Guidelines (WCAG); web host server; wide area network (WAN); wiki; World Intellectual Property Organization (WIPO); World Wide Web; World Wide Web Consortium (W3C); XHTML; XML."
+      },
+      {
+        "id": 11,
+        "topic_id": 2,
+        "title": "2.1 HTML Overview",
+        "content": ""
+      },
+      {
+        "id": 12,
+        "topic_id": 2,
+        "title": "2.2 Document Type Definition",
+        "content": ""
+      },
+      {
+        "id": 13,
+        "topic_id": 2,
+        "title": "2.3 Web Page Template",
+        "content": ""
+      },
+      {
+        "id": 14,
+        "topic_id": 2,
+        "title": "2.4 HTML Element",
+        "content": ""
+      },
+      {
+        "id": 15,
+        "topic_id": 2,
+        "title": "2.5 Head, Title, Meta, and Body Elements",
+        "content": ""
+      },
+      {
+        "id": 16,
+        "topic_id": 2,
+        "title": "2.6 Your First Web Page",
+        "content": ""
+      },
+      {
+        "id": 17,
+        "topic_id": 2,
+        "title": "2.7 Heading Element",
+        "content": ""
+      },
+      {
+        "id": 18,
+        "topic_id": 2,
+        "title": "2.8 Paragraph Element",
+        "content": ""
+      },
+      {
+        "id": 19,
+        "topic_id": 2,
+        "title": "2.9 Line Break Element",
+        "content": ""
+      },
+      {
+        "id": 20,
+        "topic_id": 2,
+        "title": "2.10 Blockquote Element",
+        "content": ""
+      },
+      {
+        "id": 21,
+        "topic_id": 2,
+        "title": "2.11 Phrase Elements",
+        "content": ""
+      },
+      {
+        "id": 22,
+        "topic_id": 2,
+        "title": "2.12 Ordered List",
+        "content": ""
+      },
+      {
+        "id": 23,
+        "topic_id": 2,
+        "title": "2.13 Unordered List",
+        "content": ""
+      },
+      {
+        "id": 24,
+        "topic_id": 2,
+        "title": "2.14 Description List",
+        "content": ""
+      },
+      {
+        "id": 25,
+        "topic_id": 2,
+        "title": "2.15 Special Characters",
+        "content": ""
+      },
+      {
+        "id": 26,
+        "topic_id": 2,
+        "title": "2.16 Structural Elements",
+        "content": ""
+      },
+      {
+        "id": 27,
+        "topic_id": 2,
+        "title": "2.17 Hyperlinks",
+        "content": ""
+      },
+      {
+        "id": 28,
+        "topic_id": 2,
+        "title": "2.18 HTML Validation",
+        "content": ""
+      },
+      {
+        "id": 29,
+        "topic_id": 2,
+        "title": "Chapter 2 Summary & Key Terms",
+        "content": ""
+      }    ],
+    "code_examples": [
+      {
+        "id": 1,
+        "lesson_id": 16,
+        "code": "<!DOCTYPE html>\\n<html lang=\"en\">\\n<head>\\n  <meta charset=\"utf-8\">\\n  <title>My First Web Page</title>\\n</head>\\n<body>\\n  <p>Hello, world!</p>\\n</body>\\n</html>"
+      }
+    ],
+    "activities": [
+      {
+        "id": 1,
+        "lesson_id": 10,
+        "title": "Review Questions",
+        "type": "Coding",
+        "time_limit": "",
+        "max_attempts": "",
+        "passing_score": "",
+        "points": "",
+        "content": "Review Questions\\nMultiple Choice\\n1. What is a unique text-based Internet address corresponding to a computer’s unique numeric IP address called?\\na. IP address\\nb. domain name\\nc. URL\\nd. user name\\n2. Select the item below that indicates the top-level domain name for the URL http://www.mozilla.com.\\na. mozilla\\nb. com\\nc. http\\nd. www\\n3. Of the following organizations, which one coordinates applications for new TLDs?\\na. Internet Assigned Numbers Authority (IANA)\\nb. Internet Engineering Task Force (IETF)\\nc. Internet Corporation for Assigned Numbers and Names (ICANN)\\nd. World Wide Web Consortium (W3C)\\n4. Which of the following is a network that covers a small area, such as a group of buildings or campus?\\na. LAN\\nb. WAN\\nc. Internet\\nd. WWW\\n5. Which of the following organizations takes a proactive role in developing recommendations and prototype technologies related to the Web?\\na. World Wide Web Consortium (W3C)\\nb. Web Professional Standards Organization (WPO)\\nc. Internet Engineering Task Force (IETF)\\nd. Internet Corporation for Assigned Numbers and Names (ICANN)\\nTrue or False\\n6. A URL is one type of URI.\\n7. Markup languages contain sets of directions that tell the browser software how to display and manage a web document.\\n8. The World Wide Web was developed to allow companies to conduct e-commerce over the Internet.\\n9. A domain name that ends in .net indicates that the website must be for a networking company.\\n10. An accessible website provides accommodations that help individuals overcome barriers such as visual, auditory, physical, and neurological disabilities.\\nFill in the Blank\\n11. ________ is the set of markup symbols or codes placed in a file intended for display on a web browser.\\n12. A ________ can be configured to house a separate website located at the same domain.\\n13. A standard language used for specifying a markup language or tag set is ________.\\n14. Frequently communicating by posting brief messages at a social networking site is called ________.\\n15. The purpose of ________ is to ensure the integrity of network communication."
+      },
+      {
+        "id": 2,
+        "lesson_id": 10,
+        "title": "Hands-On Exercise",
+        "type": "Coding",
+        "time_limit": "",
+        "max_attempts": "",
+        "passing_score": "",
+        "points": "",
+        "content": "Hands-On Exercise\\n1. Twitter (https://www.twitter.com) is a social networking website for microblogging, or frequently communicating with a brief message (280 characters or less) called a tweet. Twitter users (referred to as twitterers) tweet to update a network of friends and followers about their daily activities, observations, and information related to topics of interest. A hashtag (the # symbol) can be placed in front of a word or term within a tweet to categorize the topic, such as typing the hashtag #SXSWi in all tweets about the SXSW Interactive Conference for the web design industry. The use of a hashtag makes it easy to search for tweets about a category or event in Twitter.\\nIf you don’t already use Twitter, sign up for a free account. Use your Twitter account to share information about websites that you find useful or interesting. Post at least three tweets. You might tweet about websites that contain useful web design resources. You might describe sites that have interesting features, such as compelling graphics or easy-to-use navigation. After you begin to develop your own websites, you could tweet about them, too!\\nYour instructor may direct you to include a distinctive hashtag (for example, something like #CIS110) in your tweets that are related to your web design studies. Searching Twitter for the specified hashtag will make it easy to collect all the tweets posted by the students in your class.\\n2. Create a blog to document your learning experiences as you study web development. Visit one of the many sites that offer free blogs, such as https://www.blogger.com, https://www.wordpress.com, or https://www.tumblr.com. Follow the site’s instructions to establish your own blog. Your blog could be a place to note websites that you find useful or interesting. You might report on sites that contain useful web design resources. You might describe sites that have interesting features, such as compelling graphics or easy-to-use navigation. Write a few sentences about each site that you find intriguing. After you begin to develop your own sites, you could include the URLs and reasons for your design decisions. Share this blog with your fellow students and friends. Display your page in a browser, and print the page. Hand in the printout to your instructor."
+      },
+      {
+        "id": 3,
+        "lesson_id": 10,
+        "title": "Web Research",
+        "type": "Coding",
+        "time_limit": "",
+        "max_attempts": "",
+        "passing_score": "",
+        "points": "",
+        "content": "Web Research\\n1. The World Wide Web Consortium creates standards for the Web. Visit its site at https://www.w3c.org and then answer the following questions:\\na. How did the W3C get started?\\nb. Who can join the W3C? What does it cost to join?\\nc. The W3C home page lists a number of technologies. Choose one that interests you, click on its link, and read the associated pages. List three facts or issues you discover.\\n2. The Internet Society takes an active leadership role in issues related to the Internet. Visit its site at https://www.internetsociety.org and then answer the following questions:\\na. Why was the Internet Society created?\\nb. Determine which local chapter is closest to you. Visit its website. List the website’s URL and an activity or service that the chapter provides.\\nc. How can you join the Internet Society? What does it cost to join? Would you recommend that a beginning Web developer join the Internet Society? Why or why not?\\n3. HTTP/2 is the first major update to HTTP, which was first developed in the late 1990s. As websites have become more image and media intensive, the number of requests needed to display a web page and its related files have increased. A major benefit of HTTP/2 will be quicker loading of web pages.\\nHTTP/2 Resources:\\nhttps://readwrite.com/2015/02/18/http-update-http2-what-you-need-to-know\\nhttps://http2.github.io\\nhttps://www.engadget.com/2015/02/24/what-you-need-to-know-about-http-2\\nhttps://tools.ietf.org/html/rfc7540\\nUse the resources listed above as a starting point as you research HTTP/2 and answer the following questions.\\na. Who developed HTTP/2?\\nb. When was the HTTP/2 proposed standard published?\\nc. Describe three methods used by HTTP/2 intended to decrease latency and provide for quicker loading of web pages in browsers."
+      },
+      {
+        "id": 4,
+        "lesson_id": 10,
+        "title": "Focus on Web Design",
+        "type": "Coding",
+        "time_limit": "",
+        "max_attempts": "",
+        "passing_score": "",
+        "points": "",
+        "content": "Focus on Web Design\\n1. Visit a website that interests you. Print the home page or one other pertinent page from the site. Write a one-page summary of the site that addresses the following topics:\\na. What is the URL of the site?\\nb. What is the purpose of the site?\\nc. Who is the intended audience?\\nd. Do you think that the site reaches its intended audience? Why or why not?\\ne. Is the site useful to you? Why or why not?\\nf. Does this site appeal to you? Why or why not? Consider the use of color, images, multimedia, organization, and ease of navigation.\\ng. Would you encourage others to visit this site? Why or why not?\\nh. How could this site be improved?"
+      },
+      {
+        "id": 5,
+        "lesson_id": 29,
+        "title": "Review Questions",
+        "type": "Coding",
+        "time_limit": "",
+        "max_attempts": "",
+        "passing_score": "",
+        "points": "",
+        "content": ""
+      },
+      {
+        "id": 6,
+        "lesson_id": 29,
+        "title": "Apply Your Knowledge",
+        "type": "Coding",
+        "time_limit": "",
+        "max_attempts": "",
+        "passing_score": "",
+        "points": "",
+        "content": ""
+      },
+      {
+        "id": 7,
+        "lesson_id": 29,
+        "title": "Hands-On Exercises",
+        "type": "Coding",
+        "time_limit": "",
+        "max_attempts": "",
+        "passing_score": "",
+        "points": "",
+        "content": ""
+      },
+      {
+        "id": 8,
+        "lesson_id": 29,
+        "title": "Web Research",
+        "type": "Coding",
+        "time_limit": "",
+        "max_attempts": "",
+        "passing_score": "",
+        "points": "",
+        "content": ""
+      },
+      {
+        "id": 9,
+        "lesson_id": 29,
+        "title": "Focus on Web Design",
+        "type": "Coding",
+        "time_limit": "",
+        "max_attempts": "",
+        "passing_score": "",
+        "points": "",
+        "content": ""
+      },
+      {
+        "id": 10,
+        "lesson_id": 29,
+        "title": "Website Case Study",
+        "type": "Coding",
+        "time_limit": "",
+        "max_attempts": "",
+        "passing_score": "",
+        "points": "",
+        "content": ""
+      }
+    ]
+  }
+  

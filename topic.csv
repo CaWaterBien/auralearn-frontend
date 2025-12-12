@@ -1,0 +1,15 @@
+id,title,description
+1,Chapter 1: Introduction to the Internet and World Wide Web,This brief introduction covers terms and concepts related to the Internet and the Web. Chapter 1 provides the base of knowledge on which the rest of the textbook is built.
+2,Chapter 2: HTML Basics,As HTML5 is introduced, examples and exercises encourage students to create sample pages and gain experience. Students use a variety of structural, grouping, and text-level elements to create web pages with hyperlinks.
+3,Chapter 3: Configuring Color and Text with CSS,This chapter introduces using CSS to configure color and text on web pages.
+4,Chapter 4: Visual Elements and Graphics,This chapter discusses the use of graphics and visual effects on web pages, including image optimization, CSS borders and backgrounds, and HTML5 visual elements.
+5,Chapter 5: Web Design,This chapter focuses on recommended web design practices and accessibility.
+6,Chapter 6: Page Layout,This chapter continues CSS study and introduces positioning and floating elements, including CSS two-column layouts, CSS sprites, print styles, a fixed navigation bar, a single page site, and parallax scrolling.
+7,Chapter 7: Responsive Page Layout,This chapter provides in-depth coverage of CSS Flexbox and Grid Layout, and continues coverage of CSS media queries, responsive images, and feature queries.
+8,Chapter 8: Tables,This chapter focuses on the HTML elements used to create tables and introduces methods of styling tables with CSS.
+9,Chapter 9: Forms,This chapter focuses on the HTML elements used to create forms and introduces methods for styling forms with CSS, including CSS Grid Layout. HTML5 form controls are introduced.
+10,Chapter 10: Web Development,This chapter focuses on the website development process, including project roles, the development process steps, and web hosting. File organization is also addressed, and a web host checklist is included.
+11,Chapter 11: Web Multimedia and Interactivity,This chapter provides an overview of adding media and interactivity to web pages, including HTML5 video and audio, CSS animations, an interactive menu and image gallery, JavaScript, jQuery, Ajax, and HTML5 APIs.
+12,Chapter 12: E-Commerce Overview,This chapter introduces e-commerce, including security and order processing on the Web.
+13,Chapter 13: Web Promotion,This chapter discusses website promotion and introduces search engine optimization (SEO).
+14,Chapter 14: A Brief Look at JavaScript and jQuery,This chapter introduces client-side scripting with JavaScript and jQuery.

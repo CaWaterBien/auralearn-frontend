@@ -1,0 +1,393 @@
+@import "tailwindcss";
+@import "../styles/code-editor.css";
+
+/* Light Theme (Default) - Following HCI Guidelines */
+:root {
+  /* Primary Colors */
+  --background: #ffffff;
+  --foreground: #1a1a1a;
+  
+  /* Surface Colors */
+  --surface: #ffffff;
+  --surface-hover: #f5f5f5;
+  --surface-active: #ececec;
+  
+  /* Text Colors with proper contrast ratios */
+  --text-primary: #111827;
+  --text-secondary: #4b5563;
+  --text-tertiary: #9ca3af;
+  --text-disabled: #d1d5db;
+  
+  /* Brand Colors */
+  --brand-primary: #9929EA;
+  --brand-primary-hover: #8B1FD6;
+  --brand-primary-light: #E9D5FF;
+  --brand-secondary: #CC66DA;
+  --brand-secondary-light: #F3E8FF;
+  
+  /* Accent Colors */
+  --accent-success: #00AA6C;
+  --accent-success-light: #D1FAE5;
+  --accent-warning: #FAEB92;
+  --accent-warning-light: #FEF1D8;
+  --accent-error: #EF4444;
+  --accent-error-light: #FFE8D5;
+  --accent-info: #3B82F6;
+  --accent-info-light: #DBEAFE;
+  
+  /* UI Elements */
+  --border: #e5e7eb;
+  --border-hover: #d1d5db;
+  --divider: #f3f4f6;
+  
+  /* Shadows for depth */
+  --shadow-sm: rgba(0, 0, 0, 0.05);
+  --shadow-md: rgba(0, 0, 0, 0.1);
+  --shadow-lg: rgba(0, 0, 0, 0.15);
+  
+  /* Input Colors */
+  --input-bg: #ffffff;
+  --input-border: #e5e7eb;
+  --input-border-focus: #9929EA;
+  --input-placeholder: #9ca3af;
+  
+  /* Card Colors */
+  --card-bg: #ffffff;
+  --card-border: #f3f4f6;
+  
+  /* Code Editor */
+  --code-bg: #f0f0f0;
+  --code-border: #d1d5db;
+}
+
+/* Dark Theme - Following HCI Guidelines for reduced eye strain */
+[data-theme="dark"] {
+  /* Primary Colors - Using dark gray instead of pure black */
+  --background: #0f0f11;
+  --foreground: #f0f0f0;
+  
+  /* Surface Colors with proper elevation */
+  --surface: #18181b;
+  --surface-hover: #27272a;
+  --surface-active: #3f3f46;
+  
+  /* Text Colors with WCAG AAA contrast ratios */
+  --text-primary: #fafafa;
+  --text-secondary: #e4e4e7;
+  --text-tertiary: #a1a1aa;
+  --text-disabled: #52525b;
+  
+  /* Brand Colors adjusted for dark mode */
+  --brand-primary: #bb86fc;
+  --brand-primary-hover: #c29cfd;
+  --brand-primary-light: #2d1b40;
+  --brand-secondary: #e9b8f4;
+  --brand-secondary-light: #3d2346;
+  
+  /* Accent Colors optimized for dark backgrounds */
+  --accent-success: #4ade80;
+  --accent-success-light: #14532d;
+  --accent-warning: #fbbf24;
+  --accent-warning-light: #451a03;
+  --accent-error: #f87171;
+  --accent-error-light: #450a0a;
+  --accent-info: #60a5fa;
+  --accent-info-light: #1e3a8a;
+  
+  /* UI Elements */
+  --border: #27272a;
+  --border-hover: #3f3f46;
+  --divider: #27272a;
+  
+  /* Shadows for depth in dark mode */
+  --shadow-sm: rgba(0, 0, 0, 0.3);
+  --shadow-md: rgba(0, 0, 0, 0.5);
+  --shadow-lg: rgba(0, 0, 0, 0.7);
+  
+  /* Input Colors */
+  --input-bg: #18181b;
+  --input-border: #3f3f46;
+  --input-border-focus: #bb86fc;
+  --input-placeholder: #71717a;
+  
+  /* Card Colors */
+  --card-bg: #18181b;
+  --card-border: #27272a;
+  
+  /* Code Editor */
+  --code-bg: #1e1e21;
+  --code-border: #3f3f46;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+
+  /* App theme tokens used by components */
+  --radius: 0.5rem;
+  --color-border: var(--border);
+  --color-input: var(--input-border);
+  --color-ring: var(--brand-primary);
+
+  --color-primary: var(--brand-primary);
+  --color-primary-foreground: #ffffff;
+
+  --color-secondary: var(--brand-secondary);
+  --color-secondary-foreground: #ffffff;
+
+  --color-muted: var(--surface-hover);
+  --color-muted-foreground: var(--text-secondary);
+
+  --color-accent: var(--accent-warning);
+  --color-accent-foreground: #000000;
+
+  --color-popover: var(--surface);
+  --color-popover-foreground: var(--text-primary);
+  --color-card: var(--card-bg);
+  --color-card-foreground: var(--text-primary);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-geist-sans), Arial, Helvetica, sans-serif;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Smooth transitions for theme changes */
+* {
+  transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+/* Ensure proper text selection colors */
+::selection {
+  background-color: var(--brand-primary);
+  color: white;
+}
+
+/* Scrollbar styling for both themes */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--surface);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--text-tertiary);
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--text-secondary);
+}
+
+/* SCSS-like utilities (kept in CSS for now) */
+.heroGradient {
+  background-image: linear-gradient(to bottom right, #2C3E50, #34495E);
+}
+
+[data-theme="dark"] .heroGradient {
+  background-image: linear-gradient(to bottom right, #1a1a1f, #2d2d35);
+}
+
+.cardShadow {
+  box-shadow: 0 10px 15px -3px var(--shadow-md), 0 4px 6px -2px var(--shadow-sm);
+}
+
+/* Dark mode specific utilities */
+[data-theme="dark"] {
+  color-scheme: dark;
+}
+
+/* Ensure inputs respect theme */
+input, textarea, select {
+  background-color: var(--input-bg);
+  border-color: var(--input-border);
+  color: var(--text-primary);
+}
+
+input::placeholder, textarea::placeholder {
+  color: var(--input-placeholder);
+}
+
+/* Notification Animations */
+@keyframes slideInRight {
+  from {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.animate-slide-in-right {
+  animation: slideInRight 0.3s ease-out;
+}
+
+/* Rich Text Content Styling - Ensures TipTap editor formatting displays correctly in frontend */
+.prose {
+  /* Preserve all formatting including spaces and line breaks */
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+
+.prose strong {
+  font-weight: 700;
+}
+
+.prose em {
+  font-style: italic;
+}
+
+.prose u {
+  text-decoration: underline;
+}
+
+.prose s {
+  text-decoration: line-through;
+}
+
+.prose h1 {
+  font-size: 2.25em;
+  font-weight: 800;
+  margin-top: 0;
+  margin-bottom: 0.8888889em;
+  line-height: 1.1111111;
+}
+
+.prose h2 {
+  font-size: 1.875em;
+  font-weight: 700;
+  margin-top: 1.5em;
+  margin-bottom: 0.8333333em;
+  line-height: 1.3333333;
+}
+
+.prose h3 {
+  font-size: 1.5em;
+  font-weight: 600;
+  margin-top: 1.6em;
+  margin-bottom: 0.6em;
+  line-height: 1.6;
+}
+
+.prose h4 {
+  font-size: 1.25em;
+  font-weight: 600;
+  margin-top: 1.5em;
+  margin-bottom: 0.5em;
+}
+
+.prose h5 {
+  font-size: 1.125em;
+  font-weight: 600;
+  margin-top: 1.5em;
+  margin-bottom: 0.5em;
+}
+
+.prose h6 {
+  font-size: 1em;
+  font-weight: 600;
+  margin-top: 1.5em;
+  margin-bottom: 0.5em;
+}
+
+.prose ul {
+  list-style-type: disc;
+  padding-left: 1.625em;
+  margin-top: 1.25em;
+  margin-bottom: 1.25em;
+}
+
+.prose ol {
+  list-style-type: decimal;
+  padding-left: 1.625em;
+  margin-top: 1.25em;
+  margin-bottom: 1.25em;
+}
+
+.prose li {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+.prose code {
+  background-color: #f3f4f6;
+  padding: 0.2em 0.4em;
+  border-radius: 0.25rem;
+  font-size: 0.875em;
+  font-family: 'Courier New', monospace;
+}
+
+.prose pre {
+  background-color: #1f2937;
+  color: #e5e7eb;
+  padding: 1em;
+  border-radius: 0.5rem;
+  overflow-x: auto;
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+}
+
+.prose pre code {
+  background-color: transparent;
+  padding: 0;
+  color: inherit;
+}
+
+.prose blockquote {
+  border-left: 4px solid #9929EA;
+  padding-left: 1em;
+  font-style: italic;
+  margin: 1.5em 0;
+  color: #4b5563;
+}
+
+.prose a {
+  color: #9929EA;
+  text-decoration: underline;
+}
+
+.prose a:hover {
+  color: #8B1FD6;
+}
+
+/* TipTap text alignment classes */
+.prose [style*="text-align: center"],
+.prose .text-center {
+  text-align: center;
+}
+
+.prose [style*="text-align: right"],
+.prose .text-right {
+  text-align: right;
+}
+
+.prose [style*="text-align: justify"],
+.prose .text-justify {
+  text-align: justify;
+}
+
+/* Ensure spacing and formatting is preserved exactly as entered */
+.prose p {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.prose br {
+  display: block;
+  content: "";
+  margin: 0.25em 0;
+}
+
+/* Preserve all whitespace exactly as entered in the editor */
+.prose * {
+  white-space: pre-wrap;
+}

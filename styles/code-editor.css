@@ -1,0 +1,66 @@
+/* Code Editor Line Number Alignment Styles */
+
+/* Ensure consistent line height and font sizing for code editors */
+.code-editor-container {
+  font-family: ui-monospace, SFMono-Regular, "SF Mono", Consolas, "Liberation Mono", Menlo, monospace;
+}
+
+.code-textarea {
+  line-height: 1.5rem !important;
+  font-size: 0.875rem !important; /* text-sm */
+  padding-left: 3.5rem !important;
+  padding-top: 1rem !important;
+  padding-bottom: 1rem !important;
+  padding-right: 1rem !important;
+  font-family: inherit;
+}
+
+.line-numbers-container {
+  line-height: 1.5rem !important;
+  font-size: 0.875rem !important; /* text-sm */
+  padding-top: 1rem !important;
+  padding-bottom: 1rem !important;
+  padding-left: 0.5rem !important;
+  padding-right: 0.5rem !important;
+  font-family: inherit;
+}
+
+.line-number-item {
+  height: 1.5rem !important;
+  line-height: 1.5rem !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: flex-end !important;
+  font-family: inherit;
+}
+
+/* Prevent any CSS framework overrides */
+.code-editor-container * {
+  box-sizing: border-box;
+}
+
+/* Ensure monospace font is consistently applied */
+.code-editor-container,
+.code-editor-container textarea,
+.code-editor-container .line-numbers-container,
+.code-editor-container .line-number-item {
+  font-family: ui-monospace, SFMono-Regular, "SF Mono", Consolas, "Liberation Mono", Menlo, monospace !important;
+  font-variant-ligatures: none !important;
+}
+
+/* Additional styles for better readability */
+.code-editor-container textarea {
+  tab-size: 2;
+  -moz-tab-size: 2;
+  white-space: pre;
+  word-wrap: normal;
+  overflow-wrap: normal;
+}
+
+/* Fixed alignment for different screen DPI */
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  .code-editor-container {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}

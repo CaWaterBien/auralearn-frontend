@@ -1,0 +1,14 @@
+// Hero SCSS module
+$grad-start: #2C3E50;
+$grad-end: #34495E;
+
+.hero {
+  background-image: linear-gradient(to bottom right, $grad-start, $grad-end);
+}
+
+.searchBar {
+  border-radius: 9999px;
+  overflow: hidden;
+}
+
+
