@@ -24,29 +24,10 @@ const nextConfig: NextConfig = {
 			},
 		];
 	},
-	eslint: {
-		ignoreDuringBuilds: true,
-	},
-	// Experimental features
-	experimental: {
-		// Add any valid experimental features here when needed
-	},
 	// Configure React to be more tolerant of hydration mismatches
 	reactStrictMode: false, // Disable strict mode to reduce hydration warnings
-	// Add webpack configuration to inject hydration suppressor
-	webpack: (config, { dev, isServer }) => {
-		if (dev && !isServer) {
-			// Inject hydration error suppression in development
-			config.entry = async () => {
-				const entries = await config.entry();
-				if (entries['main.js'] && !entries['main.js'].includes('./hydration-fix.js')) {
-					entries['main.js'].unshift('./hydration-fix.js');
-				}
-				return entries;
-			};
-		}
-		return config;
-	},
+	// Configure Turbopack (Next.js 16 default bundler)
+	turbopack: {},
 	// Headers for security and caching
 	async headers() {
 		return [
