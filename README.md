@@ -86,8 +86,6 @@ NEXT_PUBLIC_API_BASE=https://your-backend-api.com
 NEXT_PUBLIC_ADMIN_API_BASE=https://your-admin-api.com
 NEXT_PUBLIC_USER_API_BASE=https://your-user-api.com
 
-# Optional: Fallback
-NEXT_PUBLIC_DEFAULT_API=https://limitless-caverns-03788-f84f5932a44c.herokuapp.com
 ```
 
 ## 🚀 Available Scripts
